@@ -19,6 +19,9 @@ void Draw() {
 int main() {
     Draw();
 
+    cout << endl
+         << " >> ";
+
     cin >> choice;
 
     switch (choice)
@@ -31,4 +34,6 @@ int main() {
     default:
         break;
     }
+    system("cls");
+    main();
 }
