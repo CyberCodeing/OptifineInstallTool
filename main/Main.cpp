@@ -78,6 +78,7 @@ int main() {
         break;
     case 3:
         system("cls");
+        system("cd ..");
         system("git clone https://github.com/CyberCodeing/OptifineInstallTool.git");
         break;
     default:
